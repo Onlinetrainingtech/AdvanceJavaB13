@@ -6,11 +6,14 @@ public class TextEditor
     
     public TextEditor(SpellChecker spellChecker)
     {
-    	
+    	System.out.println("Inside texteditor method..");
+    	this.spellChecker=spellChecker;
+    	System.out.println("****"+this.spellChecker);
     }
     
     public void spellCheck()
     {
-    	spellChecker.checkSpelling();
+    	//spellChecker.checkSpelling();
+    	System.out.println("Welcome to SpellCheck");
     }
 }
